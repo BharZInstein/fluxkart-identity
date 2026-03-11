@@ -164,3 +164,4 @@ def build_response(db: Session, primary: Contact):
         "phoneNumbers": phone_list,
         "secondaryContactIds": sorted(secondary_ids)
  
+    }
